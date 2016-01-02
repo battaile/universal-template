@@ -1,14 +1,11 @@
 import React from "react";
-import ArticleEntry from "./components/article-entry"
 
 export default React.createClass({
   render: function() {
     return (
       <div >
-        {this.props.message}
-        <div>
-        	<ArticleEntry />
-        </div>
+        <textarea rows="4" cols="50"></textarea>
+        <input type="button" value="Add"/>
       </div>
     );
   },
