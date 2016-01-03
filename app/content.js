@@ -1,5 +1,5 @@
 import React from "react";
-import ArticleEntry from "./components/article-entry"
+import MyComponent from "./components/text-area-with-add-button"
 
 export default React.createClass({
   render: function() {
@@ -7,7 +7,7 @@ export default React.createClass({
       <div >
         {this.props.message}
         <div>
-        	<ArticleEntry />
+        	<MyComponent />
         </div>
       </div>
     );
